@@ -27,21 +27,21 @@ function o = ferm(i)
     //Graficación
     scf(5); clf(5); 
     subplot(311); plot(t,X,'b-','thickness',2)
-    xgrid; xtitle('FERM','t, s','X, U/L')
+    xgrid; xtitle('FERM','t, h','X, U/L')
     a = get('current_axes');
     a.y_label.font_size = 2; //Aumento del tamaño de fuente 
     a.x_label.font_size = 2;
     a.title.font_size = 2;
     
     subplot(312); plot(t,S,'g-','thickness',2)
-    xgrid; xtitle('','t, s','S, g/L')
+    xgrid; xtitle('','t, h','S, g/L')
     a = get('current_axes');
     a.y_label.font_size = 2; //Aumento del tamaño de fuente 
     a.x_label.font_size = 2;
     a.title.font_size = 2;
     
     subplot(313); plot(t,P,'r-','thickness',2)
-    xgrid; xtitle('','t, s','P, g/L')
+    xgrid; xtitle('','t, h','P, g/L')
     a = get('current_axes');
     a.y_label.font_size = 2; //Aumento del tamaño de fuente 
     a.x_label.font_size = 2;
